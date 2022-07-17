@@ -1,0 +1,4 @@
+:after {
+    content: 'Hello World';
+    background: linear-gradient(90deg, #0009, #0003);
+    }
