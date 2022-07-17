@@ -1,0 +1,46 @@
+    .box {
+        width:280px;
+        height:280px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family: "Inconsolata", monospace;
+        font-size: 28px;
+        border:1px solid #c39f76;
+        box-sizing:border-box;
+    }
+
+
+    .box:before {
+        content: 'Hello World';
+        letter-spacing: 5px;
+        width: 100%;
+        text-align: center;
+        animation: e 34s steps(17) infinite;
+    }
+
+
+    .box:after {
+        content: '';
+        position: fixed;
+        padding: 23px;
+        animation: b 2s linear infinite, m 34s linear infinite;
+        background: #ffcc02;
+        border-radius: 50%;
+    }
+
+
+
+
+    @keyframes e {
+        0% {clip-path: inset(0 0 0 -6px)}
+        to {clip-path: inset(0 0 0 312px)}
+    }
+    @keyframes b {
+        0%,to {clip-path:polygon(50%50%,100%50%,99%100%,-150%0,99%0,99%50%)}
+        50% {clip-path:polygon(50%50%,100%75%,99%100%,-150%0,99%0,99%25%)}
+    }
+    @keyframes m {
+        0% {left: -55q}
+        to {left: 277px}
+    }

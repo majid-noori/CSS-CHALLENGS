@@ -1,0 +1,54 @@
+.box {
+	width:280px;
+	height:280px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family: "Inconsolata", monospace;
+	font-size: 28px;
+	border:1px solid #c39f76;
+	box-sizing:border-box;
+}
+
+
+.box{
+	overflow: hidden;
+	justify-content: flex-end;
+}
+.box:before {
+	content: '';
+	animation: t 1s infinite ease-in, c 10s linear infinite;
+}
+.box:after {
+    content: '';
+	animation: u 10s linear infinite;
+	margin-right: 61px;
+}
+@keyframes t {
+	0% {transform: none}
+	to {transform: translate(-30q, 260q) rotate(-4rad)}
+}
+@keyframes c {
+	5% { content: 'H' }
+	15% { content: 'e' }
+	25%, 35% { content: 'l' }
+	45% { content: 'o' }
+	55% { content: 'W' }
+	65% { content: 'o' }
+	75% { content: 'r' }
+	85% { content: 'l' }
+	95% { content: 'd' }
+}
+@keyframes u {
+	5% { content: 'ello World' }
+	15% { content: 'llo World' }
+	25% { content: 'lo World' }
+	35% { content: 'o World' }
+	45% { content: ' world' }
+	55% { content: 'orld' }
+	65% { content: 'rld' }
+	75% { content: 'ld' }
+	85% { content: 'd' }
+	95% { content: '' }
+}
+

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    height: 80px;
+    
+    position: relative;
+}
+
+
+.header .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+
+
+.header .left .logo{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0 ;
+}
+
+.header .left .logo img{
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+.header .left .menu{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0 ;
+}
+
+
+
+.header .left .menu ul{
+    list-style-type: none;
+
+}
+
+.header .left .menu ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size:18px ;
+    padding: 30px 15px;
+    font-family: swap;
+    
+}
+.header .left .menu ul li:hover{
+    color: white;
+    background-color: #04aa6d;
+
+}
+
+
+
+
+.header .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.header .right .menu2{
+    width: 65% ;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+}
+
+.header .right .menu2 ul{
+    list-style-type: none;
+}
+
+.header .right .menu2 ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:"swap" ;
+    padding: 25px ;
+  
+
+}
+.header .right .menu2 ul li.login{
+    text-align: center;
+    width: 110px;
+    background: #04aa6d;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-left: 25px;
+    
+    
+}
+
+
+.header .right .icons{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin:28px 29px;
+    text-align: center;   
+}
+
+
+.header .right .icons i{
+    padding: 10px 10px;
+    display: inline;
+    margin-right:10px;
+    margin-bottom: 10px;
+
+}
+
+.header .right .icons i:hover{
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 50px;
+}
+
+
+
+
+
+.section1{
+    height: 550px;
+    background-color: #282a35;
+    position: relative;
+
+}
+
+
+
+
+.section1 .left{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px ;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 110px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.desk{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn1 , .btn2{
+    width: 200px;
+    background-color: grey;
+    margin: 20px auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+
+}
+.btn1{
+    background-color: #04aa6d;
+    color: white;
+}
+.btn{
+    background-color: white;
+    color: black;
+}
+
+
+.section1 .right{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.container{
+    width: 580px;
+    height: 400px;
+    background-color:#e7e9eb;
+    margin:70px auto;
+    border-radius: 7px;
+    padding: 25px 15px;
+}
+
+.code{
+    width: 540px;
+    height: 240px;
+    background-color: white;
+    margin: 20px auto;
+    border-left: 5px #04aa6d solid;
+    padding: 10px;
+}
+
+
+.btn3{
+    width: 200px;
+    background-color: gray;
+    text-align: center;
+    background-color: #04aa6d;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
